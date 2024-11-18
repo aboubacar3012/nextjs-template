@@ -1,6 +1,5 @@
-
-
-import { PersistGate } from "redux-persist/integration/react";
+"use client"
+import { PersistGate } from 'redux-persist/integration/react';
 import { ToastContainer } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
 import { ReactQueryDevtools } from '@tanstack/react-query-devtools'
