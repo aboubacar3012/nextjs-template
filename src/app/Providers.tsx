@@ -10,6 +10,7 @@ import {
   QueryClient,
   QueryClientProvider,
 } from '@tanstack/react-query'
+import { persistor, store } from "../redux/store";
 
 const queryClient = new QueryClient()
 
